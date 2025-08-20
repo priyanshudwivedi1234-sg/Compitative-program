@@ -1,0 +1,5 @@
+num = int(input("Enter a number"))
+if num % 5 == 0 and num % 10 == 7:
+    print("Yes, the number is divisible by 3 and the last digit is 4")
+else:
+    print("No, condition not satisfied")

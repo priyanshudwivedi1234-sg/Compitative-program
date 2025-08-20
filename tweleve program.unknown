@@ -1,0 +1,9 @@
+
+A = int(input("Enter number A "))
+B = int(input("Enter number B "))
+if A > B:
+    print("The maximum number is", A)
+elif B > A:
+    print("The maximum number is", B)
+else:
+    print("Both numbers are equal", A)

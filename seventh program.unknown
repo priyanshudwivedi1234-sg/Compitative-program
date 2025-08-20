@@ -1,0 +1,12 @@
+angle1=int(input("Enter the first angle"))
+angle2=int(input("Enter the second angle"))
+angle3=int(input("Enter the third angle"))
+if angle1+angle2+angle3==180:
+    if 90 in (angle1, angle2, angle3):
+        print("Right triangle")
+    elif angle1 > 90 or angle2 > 90 or angle3 > 90:
+        print("Obtuse triangle")
+    else:
+        print("Acute triangle")
+else:
+    print("Not a valid triangle")

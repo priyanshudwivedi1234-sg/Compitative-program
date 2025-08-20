@@ -1,0 +1,9 @@
+A = int(input("Enter number A: "))
+B = int(input("Enter number B: "))
+C = int(input("Enter number C: "))
+if A <= B and A <= C:
+    print("The minimum number is:", A)
+elif B <= A and B <= C:
+    print("The minimum number is:", B)
+else:
+    print("The minimum number is:", C)
