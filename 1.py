@@ -1,3 +1,4 @@
-N = int(input("Enter N: "))
-for i in range(1, N + 1):
-    print(i, end=" ")
+for i in range(4):
+    for j in range(5):
+        print("*", end=" ")
+    print()

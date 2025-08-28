@@ -1,2 +1,6 @@
-N = input("Enter a number: ")
-print("Digit count:", len(N))
+for i in range(5):
+    for j in range(i):
+        print("_", end=" ")
+    for k in range(5 - i):
+        print("*", end=" ")
+    print()
