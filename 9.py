@@ -1,5 +1,7 @@
-N = input("Enter a number: ")
-total = 0
-for digit in N:
-    total += int(digit)
-print("Sum of digits:", total)
+for i in range(5, 0, -1):
+    for j in range(i):
+        print("*", end="")
+    print(" ", end="")
+    for k in range(i):
+        print("*", end="")
+    print()

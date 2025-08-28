@@ -1,5 +1,6 @@
-A = int(input("Enter A: "))
-total = 0
-for i in range(1, A + 1, 2):
-    total += i
-print("Sum of odd numbers:", total)
+for i in range(1, 6):
+    for j in range(5 - i):
+        print("_", end=" ")
+    for k in range(i):
+        print("*", end=" ")
+    print()
